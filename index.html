@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
 
-<body>
+<body class="">
     <article>
         <header class="bg-light-yellow sans-serif">
             <div class="mw9 center pa4 pt5-ns ph7-l">
@@ -29,22 +29,24 @@
                 </h4>
             </div>
         </header>
-        <div class="pa4 ph7-l mw9-l center">
-            <p class="f4 lh-copy-m">
+        <div class="ph4 ph5-l mw9-l center">
+            <h1 class="mw8 center f3 f2-m f1-l black-30">Intro</h1>
+            <p class="f4 mw8 lh-copy-m center">
                 Neural Language Generation (NLG) - using neural network models to generate coherent text - is among the
                 most promising methods for automated text creation. Recent years have seen a paradigm shift in neural
                 text generation, caused by the advances in deep contextual language modeling (e.g., LSTMs, GPT, GPT2)
                 and transfer learning (e.g., ELMo, BERT). While these tools have dramatically improved the state of NLG,
                 particularly for low resources tasks, state-of-the-art NLG models still face many challenges: a lack of
                 diversity in generated text, commonsense violations in depicted situations, difficulties in making use
-                of factual information, and difficulties in designing reliable evaluation metrics.In this tutorial, we
+                of factual information, and difficulties in designing reliable evaluation metrics. In this tutorial, we
                 will present an overview of the current state-of-the-art in neural network architectures, and how they
                 shaped recent research directions in text generation. We will discuss how and why these models
                 succeed/fail at generating coherent text, and provide insights on several applications.
             </p>
         </div>
     </article>
-    <article class="pa4">
+    <article class="ph4 ph5-l mw9-l center">
+        <h1 class="mw8 center f3 f2-m f1-l black-30">Schedule</h1>
         <div class="overflow-auto">
             <table class="f4 w-100 mw8 center" cellspacing="0">
                 <thead>
@@ -109,8 +111,9 @@
             </table>
         </div>
     </article>
-    <article class="mw8 center">
-        <ol class="pl0 f4 lh-copy-m">
+    <article class="ph4 center">
+        <h1 class="mw8 center f3 f2-m f1-l black-30">Bibliography</h1>
+        <ol class="mw8 center pl0 f4 lh-copy-m">
             <li>Samy Bengio, Oriol Vinyals, Navdeep Jaitly, and Noam Shazeer. 2015. <a class="link dim blue" href="https://arxiv.org/abs/1506.03099" target="_blank">Scheduled sampling for sequence prediction with recurrent neural networks.</a> In Advances in Neural Information Processing Systems, pages 1171-1179.</li>
             <li>Antoine Bosselut, Asli elikyilmaz, Xiaodong He, Jianfeng Gao, Po-Sen Huang, and Yejin Choi. 2018. <a class="link dim blue" href="https://arxiv.org/abs/1805.03766" target="_blank">Discourse-aware neural rewards for coherent text generation.</a> In Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).</li>
         </ol>
@@ -138,7 +141,9 @@
             <h2 class="f5 fw4 gray mt0">Microsoft Research</h2>
         </div>
     </article>
-
+    <footer class="fl w-100 pa2 mid-gray">
+        <small class="f6 db tc">Designed by <a class="dark-gray link dim" href="https://sxing.xyz/" target="_blank">Sanxing Chen</a></small>
+    </footer>
 </body>
 
 </html>
