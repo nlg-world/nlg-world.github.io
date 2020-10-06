@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+
+<body>
+    <article>
+        <header class="bg-light-yellow sans-serif">
+            <div class="mw9 center pa4 pt5-ns ph7-l">
+                <time class="f4 mb2 dib ttu tracked"><small>NOVEMBER 20, 2020</small></time>
+                <h3 class="f-5-m f-6-l measure lh-title mv0">
+                    <span class="bg-black-50 lh-copy white pa1 tracked-tight">
+                        The Amazing World of Neural Language Generation (T5)
+                    </span>
+                </h3>
+                <h4 class="f3 tracked black-80">
+                    <a class="dark-gray link dim" href="https://yangfengji.net/" target="_blank">Yangfeng Ji</a>,
+                    <a class="dark-gray link dim" href="https://atcbosselut.github.io/" target="_blank">Antoine
+                        Bosselut</a>,
+                    <a class="dark-gray link dim" href="https://thomwolf.io/" target="_blank">Thomas Wolf</a> and
+                    <a class="dark-gray link dim" href="http://asli.us/" target="_blank">Asli Celikyilmaz</a>
+                </h4>
+                <h4 class="f3 fw3">
+                    <a href="#" class="link light-purple bg-white-70 hover-black">ACL tutorial page</a>
+                    <a href="#" class="link light-purple bg-white-60 hover-black">RocketChat</a>
+                    <a href="#" class="link light-purple bg-white-50 hover-black">LiveStream</a>
+                    <a href="#" class="link light-purple bg-white-40 hover-black">Tutorial writeup</a>
+                </h4>
+            </div>
+        </header>
+        <div class="pa4 ph7-l mw9-l center">
+            <p class="f4 lh-copy-m">
+                Neural Language Generation (NLG) - using neural network models to generate coherent text - is among the
+                most promising methods for automated text creation. Recent years have seen a paradigm shift in neural
+                text generation, caused by the advances in deep contextual language modeling (e.g., LSTMs, GPT, GPT2)
+                and transfer learning (e.g., ELMo, BERT). While these tools have dramatically improved the state of NLG,
+                particularly for low resources tasks, state-of-the-art NLG models still face many challenges: a lack of
+                diversity in generated text, commonsense violations in depicted situations, difficulties in making use
+                of factual information, and difficulties in designing reliable evaluation metrics.In this tutorial, we
+                will present an overview of the current state-of-the-art in neural network architectures, and how they
+                shaped recent research directions in text generation. We will discuss how and why these models
+                succeed/fail at generating coherent text, and provide insights on several applications.
+            </p>
+        </div>
+    </article>
+    <article class="pa4">
+        <div class="overflow-auto">
+            <table class="f4 w-100 mw8 center" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th class="fw6 bb b--black-20 tl pb3 pr3">Title</th>
+                        <th class="fw6 bb b--black-20 tl pb3 pr3">Slides</th>
+                        <th class="fw6 bb b--black-20 tl pb3 pr3">Description</th>
+                        <th class="fw6 bb b--black-20 tl pb3 pr3">Speaker</th>
+                    </tr>
+                </thead>
+                <tbody class="lh-copy">
+                    <tr>
+                        <td class="pv3 pr3 bb b--black-20">Introduction</td>
+                        <td class="pv3 pr3 bb b--black-20">PDF</td>
+                        <td class="pv3 pr3 bb b--black-20">
+                            This section will introduce the tutorial by presenting the recent impact of neural network
+                            modeling approaches on the field. We will briefly overview the classical text generation
+                            pipeline, and introduce basic building blocks of neural text generation: language modeling
+                            and the encoder-decoder frameworks. We will also discuss the limitations of the simple
+                            encoder-decoder frameworks and motivate the rest of the tutorial.</td>
+                        <td class="pv3 pr3 bb b--black-20 truncate">Yangfeng Ji</td>
+                    </tr>
+                    <tr>
+                        <td class="pv3 pr3 b--black-20">Neural Models for Language Generation</td>
+                        <td class="pv3 pr3 b--black-20">PDF</td>
+                        <td class="pv3 pr3 b--black-20">
+                            This section .</td>
+                        <td class="pv3 pr3 b--black-20 truncate">Antoine Bosselut</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="tc bg-light-gray">20 minutes break</td>
+                    </tr>
+                    <tr>
+                        <td class="pv3 pr3 bb b--black-20">Generation with Rich Context</td>
+                        <td class="pv3 pr3 bb b--black-20">PDF</td>
+                        <td class="pv3 pr3 bb b--black-20">
+                            This section .</td>
+                        <td class="pv3 pr3 bb b--black-20 truncate">Yangfeng Ji</td>
+                    </tr>
+                    <tr>
+                        <td class="pv3 pr3 bb b--black-20">Benchmarks and Evaluation</td>
+                        <td class="pv3 pr3 bb b--black-20">PDF</td>
+                        <td class="pv3 pr3 bb b--black-20">
+                            This section .</td>
+                        <td class="pv3 pr3 bb b--black-20 truncate">Asli Celikyilmaz</td>
+                    </tr>
+                    <tr>
+                        <td class="pv3 pr3 bb b--black-20">Building Neural Models for Generation</td>
+                        <td class="pv3 pr3 bb b--black-20">PDF</td>
+                        <td class="pv3 pr3 bb b--black-20">
+                            This section .</td>
+                        <td class="pv3 pr3 bb b--black-20 truncate">Thomas Wolf</td>
+                    </tr>
+                    <tr>
+                        <td class="pv3 pr3 bb b--black-20">Open  problems  and  directions</td>
+                        <td class="pv3 pr3 bb b--black-20">PDF</td>
+                        <td class="pv3 pr3 bb b--black-20">
+                            This section .</td>
+                        <td class="pv3 pr3 bb b--black-20 truncate">Asli Celikyilmaz</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </article>
+    <article class="mw8 center">
+        <ol class="pl0 f4 lh-copy-m">
+            <li>Samy Bengio, Oriol Vinyals, Navdeep Jaitly, and Noam Shazeer. 2015. <a class="link dim blue" href="https://arxiv.org/abs/1506.03099" target="_blank">Scheduled sampling for sequence prediction with recurrent neural networks.</a> In Advances in Neural Information Processing Systems, pages 1171-1179.</li>
+            <li>Antoine Bosselut, Asli elikyilmaz, Xiaodong He, Jianfeng Gao, Po-Sen Huang, and Yejin Choi. 2018. <a class="link dim blue" href="https://arxiv.org/abs/1805.03766" target="_blank">Discourse-aware neural rewards for coherent text generation.</a> In Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).</li>
+        </ol>
+    </article>
+    <article class="mw8 center">
+        <div class="fl w-25 tc pv5">
+            <img src="img/yangfeng.png" class="br-100 h4 w4 dib ba b--black-05 pa2">
+            <h1 class="f3 mb2"><a class="dark-gray link dim" href="https://yangfengji.net/" target="_blank">Yangfeng Ji</a></h1>
+            <h2 class="f5 fw4 gray mt0">University of Virginia</h2>
+        </div>
+        <div class="fl w-25 tc pv5">
+            <img src="img/antoine.jpeg" class="br-100 h4 w4 dib ba b--black-05 pa2">
+            <h1 class="f3 mb2"><a class="dark-gray link dim" href="https://atcbosselut.github.io/" target="_blank">Antoine
+                Bosselut</a></h1>
+            <h2 class="f5 fw4 gray mt0">University of Washington</h2>
+        </div>
+        <div class="fl w-25 tc pv5">
+            <img src="img/thom.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
+            <h1 class="f3 mb2"><a class="dark-gray link dim" href="https://thomwolf.io/" target="_blank">Thomas Wolf</a></h1>
+            <h2 class="f5 fw4 gray mt0">Hugging Face</h2>
+        </div>
+        <div class="fl w-25 tc pv5">
+            <img src="img/asli.png" class="br-100 h4 w4 dib ba b--black-05 pa2">
+            <h1 class="f3 mb2"><a class="dark-gray link dim" href="http://asli.us/" target="_blank">Asli Celikyilmaz</a></h1>
+            <h2 class="f5 fw4 gray mt0">Microsoft Research</h2>
+        </div>
+    </article>
+
+</body>
+
+</html>
